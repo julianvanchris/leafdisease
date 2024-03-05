@@ -6,7 +6,7 @@ import base64
 import numpy as np
 
 # Load YOLO model
-model = YOLO("model/leafdisease_v1.pt")
+model = YOLO("model/leafdisease_v2.pt")
 class_list = model.names
 
 # Function to perform object detection
